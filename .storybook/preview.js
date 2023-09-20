@@ -8,12 +8,12 @@ const preview = {
         date: /Date$/,
       },
     },
-    backgrounds: {
-      values: [
-        {name: 'light', value: '#fff'},
-        {name: 'dark', value: '#000'}
-      ]
-    }
+    // backgrounds: {
+    //   values: [
+    //     {name: 'light', value: '#fff'},
+    //     {name: 'dark', value: '#000'}
+    //   ]
+    // }
   },
 };
 
