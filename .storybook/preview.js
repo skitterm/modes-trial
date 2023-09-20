@@ -1,4 +1,4 @@
-/** @type { import('@storybook/react').Preview } */
+import { withThemeByClassName } from "@storybook/addon-themes";
 const preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
@@ -15,6 +15,15 @@ const preview = {
       ]
     }
   },
+  decorators: [
+    withThemeByClassName({
+      themes: {
+        light: "light",
+        dark: "dark",
+      },
+      defaultTheme: "light",
+    }),
+  ],
 };
 
 export default preview;
