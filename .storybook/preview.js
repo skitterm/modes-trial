@@ -8,7 +8,7 @@ const preview = {
         date: /Date$/,
       },
     },
-    colors: {
+    backgrounds: {
       values: [
         {name: 'light', value: '#fff'},
         {name: 'dark', value: '#000'}

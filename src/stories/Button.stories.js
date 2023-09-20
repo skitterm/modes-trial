@@ -10,7 +10,7 @@ export default {
     layout: 'centered',
     chromatic: {
       modes: {
-        'light': allModes.light,
+        light: allModes.light,
         dark: allModes.dark
       }
     }
