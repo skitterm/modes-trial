@@ -1,8 +1,8 @@
 export const allModes = {
   'dark': {
-    backgrounds: 'dark'
+    backgrounds: {value: 'dark' }
   },
   'light': {
-    backgrounds: 'light'
+    backgrounds: {value: 'light'}
   }
 };
