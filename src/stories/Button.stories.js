@@ -10,7 +10,7 @@ export default {
     layout: 'centered',
     chromatic: {
       modes: {
-        light: allModes.light,
+        'light time': allModes.light,
         dark: allModes.dark
       }
     }
@@ -38,7 +38,7 @@ export const Secondary = {
   parameters: {
     chromatic: {
       modes: {
-        light: { disable: true },
+        'light time': { disable: true },
         amazing: allModes.light,
       }
     }
