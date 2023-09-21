@@ -35,6 +35,13 @@ export const Secondary = {
   args: {
     label: 'Button',
   },
+  parameters: {
+    chromatic: {
+      modes: {
+        light: { disable: true }
+      }
+    }
+  }
 };
 
 export const Large = {
