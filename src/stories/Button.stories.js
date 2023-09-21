@@ -11,7 +11,7 @@ export default {
     chromatic: {
       modes: {
         light: allModes.light,
-        dark: allModes.dark
+        'dark-stuff': allModes.dark
       }
     }
   },
