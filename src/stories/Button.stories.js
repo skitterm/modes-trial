@@ -11,7 +11,7 @@ export default {
     chromatic: {
       modes: {
         light: allModes.light,
-        'dark-stuff': allModes.dark
+        dark: allModes.dark
       }
     }
   },
@@ -38,7 +38,8 @@ export const Secondary = {
   parameters: {
     chromatic: {
       modes: {
-        light: { disable: true }
+        light: { disable: true },
+        amazing: allModes.light,
       }
     }
   }
